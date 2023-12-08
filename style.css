@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+html,body{
+    scroll-behavior: smooth;
+}
+header{
+    padding: 5px;
+    background-color: rgba(21, 14, 14, 0.93);
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+button.pages{
+    font-size: 20px;
+    background-color: rgba(2, 255, 6, 0.715);
+    border-radius: 14px;
+    border: transparent;
+    color: aliceblue;
+    padding: 10px;
+}
+
+button.logo{
+    
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(2, 255, 6, 0.715);
+    border-radius: 5px;
+    width: 90px;
+    font-size: 60px;
+}
+.head-pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    
+}
+a{
+font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+a:hover{
+    transition: all 0.5s;
+    color: rgba(2, 255, 6, 0.715);
+
+}
+
+.first-step{
+    text-align: center;
+    padding-top: 30vh;
+
+}
+.container{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.h1-style2{
+    background-color: rgba(21, 14, 14, 0.93);
+    border-radius: solid;
+    color: aliceblue;
+    width: 450px;
+}
+div.courses{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+button{
+    background-color: rgb(34, 192, 76);
+    border-radius: 9px;
+    padding: 5px 10px;
+    color: aliceblue;
+    border: transparent;
+    
+}
+button:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+}
+
+
+
+
+.images{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 9.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 15px;
+
+}
+.images>img{
+    margin: 10px;
+}
+.slider{
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    width: 100%;
+}
+.m1{
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 300px;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+div .img1{
+    margin-right: -67px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+
+.course-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+    margin-bottom: 10vh;
+    
+    
+}
+.web, .app,.robotics,.blockchain,.aiml{
+    
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border-radius: 25px;
+    padding: 5vh 10vh;
+    margin: auto;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+}
+.img img{
+border-radius: 25px;
+}
+.img,.text{
+    width: 50%;
+}
+h4{
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+
+
+
+.footer{
+    
+}
+footer{
+    background-color:rgba(21, 14, 14, 0.93);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+footer>a{
+    font-size: 20px;
+}
